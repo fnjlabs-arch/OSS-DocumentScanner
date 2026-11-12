@@ -7,7 +7,7 @@ sidebar_position: 4
 
 # Passbook & PKPass Support
 
-OSS CardWallet fully supports Apple Passbook (PKPass) files, allowing you to import, view, and manage digital passes like boarding passes, event tickets, loyalty cards, and coupons.
+SadSha CardWallet fully supports Apple Passbook (PKPass) files, allowing you to import, view, and manage digital passes like boarding passes, event tickets, loyalty cards, and coupons.
 
 ## What is PKPass?
 
@@ -33,7 +33,7 @@ PKPass is the file format used by Apple Wallet (formerly Passbook). These digita
 When you receive a PKPass file via email or download one from a website:
 
 1. Tap on the `.pkpass` file
-2. Select **Open with OSS CardWallet**
+2. Select **Open with SadSha CardWallet**
 3. The pass will be automatically imported
 
 ### From QR Code

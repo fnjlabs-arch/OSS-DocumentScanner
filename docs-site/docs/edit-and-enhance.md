@@ -7,7 +7,7 @@ slug: /edit-and-enhance
 
 # Editing and Enhancing Documents
 
-After capturing a document, OSS Document Scanner provides comprehensive editing tools to perfect your scans.
+After capturing a document, SadSha DocScan provides comprehensive editing tools to perfect your scans.
 
 ![Edit Screen](/img/screenshots/documentscanner/2_en-US.png)
 

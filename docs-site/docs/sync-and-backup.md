@@ -7,7 +7,7 @@ slug: /sync-and-backup
 
 # Sync and Backup
 
-Keep your documents safe and accessible across devices with OSS Document Scanner's sync and backup features.
+Keep your documents safe and accessible across devices with SadSha DocScan's sync and backup features.
 
 ![Sync Settings](/img/sync-1.png)
 
@@ -103,7 +103,7 @@ The app attempts to resolve conflicts automatically:
 
 1. Log into your Nextcloud instance
 2. Go to **Settings** > **Security** > **Devices & sessions**
-3. Create an app password for OSS Document Scanner
+3. Create an app password for SadSha DocScan
 4. In the app, enter:
    - URL: `https://your-nextcloud.com/remote.php/webdav/`
    - Use app password instead of main password

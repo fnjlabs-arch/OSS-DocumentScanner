@@ -7,7 +7,7 @@
 #   --variant   : release (default), debug (tesseract with symbols, same file names: extracted over the release libs,
 #                 so fetch release first or use `both`) or both (release, then debug on top)
 #   --dest      : repo root to extract into (default: this repo's root)
-#   --repo      : GitHub repository holding the release (default: $NATIVE_LIBS_REPO or ossappscollective/OSS-DocumentScanner)
+#   --repo      : GitHub repository holding the release (default: $NATIVE_LIBS_REPO or fnjlabs-arch/OSS-DocumentScanner)
 #   --dry-run   : only print what would be downloaded
 # Uses `gh release download` when gh is installed and authenticated, plain curl otherwise.
 # Note: this overwrites opencv/ios/opencv2.xcframework and the matching libs of the selected platforms.
@@ -16,7 +16,7 @@ set -euo pipefail
 source "$(dirname "${BASH_SOURCE[0]}")/lib/common.sh"
 
 DEST="$REPO_ROOT"
-REPO="${NATIVE_LIBS_REPO:-ossappscollective/OSS-DocumentScanner}"
+REPO="${NATIVE_LIBS_REPO:-fnjlabs-arch/OSS-DocumentScanner}"
 DRY_RUN=0
 VARIANT="${NATIVE_LIBS_VARIANT:-release}"
 args=()

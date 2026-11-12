@@ -7,7 +7,7 @@ slug: /export
 
 # Exportation des Documents
 
-OSS Document Scanner prend en charge plusieurs formats d'exportation et options de partage pour envoyer vos documents où vous en avez besoin.
+SadSha DocScan prend en charge plusieurs formats d'exportation et options de partage pour envoyer vos documents où vous en avez besoin.
 
 ![Options d'Exportation](/img/export-1.png)
 

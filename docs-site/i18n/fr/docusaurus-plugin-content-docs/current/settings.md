@@ -7,7 +7,7 @@ slug: /settings
 
 # Paramètres
 
-Configurez OSS Document Scanner et OSS CardWallet selon vos préférences et votre flux de travail.
+Configurez SadSha DocScan et SadSha CardWallet selon vos préférences et votre flux de travail.
 
 ![Écran des Paramètres](/img/settings-1.png)
 

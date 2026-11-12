@@ -30,8 +30,8 @@ export default defineConfig({
         GOOGLE_OAUTH_CLIENT_SECRET: JSON.stringify('test-google-client-secret'),
         ONEDRIVE_OAUTH_CLIENT_ID: JSON.stringify('test-onedrive-client-id'),
         ONEDRIVE_OAUTH_CLIENT_SECRET: JSON.stringify('test-onedrive-client-secret'),
-        GIT_URL: JSON.stringify('https://github.com/ossappscollective/OSS-DocumentScanner'),
-        SUPPORT_URL: JSON.stringify('https://github.com/ossappscollective/OSS-DocumentScanner/issues'),
+        GIT_URL: JSON.stringify('https://github.com/fnjlabs-arch/OSS-DocumentScanner'),
+        SUPPORT_URL: JSON.stringify('https://github.com/fnjlabs-arch/OSS-DocumentScanner/issues'),
         STORE_LINK: JSON.stringify(''),
         STORE_REVIEW_LINK: JSON.stringify(''),
         SPONSOR_URL: JSON.stringify('https://github.com/sponsors/farfromrefug')

@@ -10,7 +10,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: 'OSS Document Scanner - Best Free PDF Scanner App',
+    title: 'SadSha DocScan - Best Free PDF Scanner App',
     tagline: 'Free, open source document scanner and card wallet apps for Android & iOS. No ads, 100% privacy.',
     favicon: 'img/favicon.ico',
 
@@ -22,7 +22,7 @@ const config = {
 
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
-    organizationName: 'OSS-DocumentScanner', // Usually your GitHub org/user name.
+    organizationName: 'fnjlabs-arch', // Usually your GitHub org/user name.
     projectName: 'OSS-DocumentScanner', // Usually your repo name.
     trailingSlash: false,
 
@@ -87,7 +87,7 @@ const config = {
                     sidebarPath: './sidebars.js',
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
-                    editUrl: 'https://github.com/ossappscollective/OSS-DocumentScanner/tree/main/docs-site/'
+                    editUrl: 'https://github.com/fnjlabs-arch/OSS-DocumentScanner/tree/main/docs-site/'
                 },
                 blog: false,
                 theme: {
@@ -166,7 +166,7 @@ const config = {
                         position: 'right'
                     },
                     {
-                        href: 'https://github.com/ossappscollective/OSS-DocumentScanner',
+                        href: 'https://github.com/fnjlabs-arch/OSS-DocumentScanner',
                         label: 'GitHub',
                         position: 'right'
                     }
@@ -214,7 +214,7 @@ const config = {
                         items: [
                             {
                                 label: 'GitHub Issues',
-                                href: 'https://github.com/ossappscollective/OSS-DocumentScanner/issues'
+                                href: 'https://github.com/fnjlabs-arch/OSS-DocumentScanner/issues'
                             },
                             {
                                 label: 'Weblate Translations',
@@ -235,7 +235,7 @@ const config = {
                         items: [
                             {
                                 label: 'GitHub Releases',
-                                href: 'https://github.com/ossappscollective/OSS-DocumentScanner/releases'
+                                href: 'https://github.com/fnjlabs-arch/OSS-DocumentScanner/releases'
                             },
                             {
                                 label: 'Google Play (Scanner)',
@@ -265,7 +265,7 @@ const config = {
                         ]
                     }
                 ],
-                copyright: `Copyright © ${new Date().getFullYear()} OSS Document Scanner & CardWallet. Built with Docusaurus.`
+                copyright: `Copyright © ${new Date().getFullYear()} SadSha DocScan & CardWallet. Built with Docusaurus.`
             },
             prism: {
                 theme: prismThemes.github,

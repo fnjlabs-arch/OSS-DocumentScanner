@@ -7,13 +7,13 @@ slug: /faq
 
 # Frequently Asked Questions
 
-Find answers to common questions about OSS Document Scanner and OSS CardWallet.
+Find answers to common questions about SadSha DocScan and SadSha CardWallet.
 
 ## General
 
 ### Are these apps really free?
 
-Yes! Both OSS Document Scanner and OSS CardWallet are completely free and open source. There are no ads, no in-app purchases, and no premium features locked behind a paywall.
+Yes! Both SadSha DocScan and SadSha CardWallet are completely free and open source. There are no ads, no in-app purchases, and no premium features locked behind a paywall.
 They will nalways remain free and open source.
 
 ### Is my data private?
@@ -26,7 +26,7 @@ Absolutely. Both apps:
 
 ### What's the difference between the two apps?
 
-| OSS Document Scanner | OSS CardWallet |
+| SadSha DocScan | SadSha CardWallet |
 |---------------------|----------------|
 | Scan paper documents | Store loyalty/membership cards |
 | Auto edge detection | Barcode scanning |
@@ -37,7 +37,7 @@ Both apps share common features like cloud sync, backup, and privacy-first desig
 
 ### Where can I get support?
 
-- **GitHub Issues**: [Report bugs or request features](https://github.com/Akylas/OSS-DocumentScanner/issues)
+- **GitHub Issues**: [Report bugs or request features](https://github.com/fnjlabs-arch/OSS-DocumentScanner/issues)
 - **This Documentation**: Browse guides and tutorials
 
 ### How can I contribute?
@@ -186,7 +186,7 @@ Backups are ZIP files that are not encrypted by default. For sensitive documents
 Try these steps:
 
 1. Restart your device
-2. Clear app cache (Settings > Apps > OSS Document Scanner > Clear Cache)
+2. Clear app cache (Settings > Apps > SadSha DocScan > Clear Cache)
 3. Update to latest version
 4. Reinstall the app (backup first!)
 
@@ -230,7 +230,7 @@ Try these steps:
 
 ### How is the app built?
 
-OSS Document Scanner is built with:
+SadSha DocScan is built with:
 - **NativeScript**: Cross-platform framework
 - **Svelte**: UI components
 - **OpenCV**: Image processing
@@ -239,7 +239,7 @@ OSS Document Scanner is built with:
 
 ### Where is source code located?
 
-Key directories in the [GitHub repository](https://github.com/Akylas/OSS-DocumentScanner):
+Key directories in the [GitHub repository](https://github.com/fnjlabs-arch/OSS-DocumentScanner):
 
 | Directory | Contents |
 |-----------|----------|
@@ -252,12 +252,12 @@ Key directories in the [GitHub repository](https://github.com/Akylas/OSS-Documen
 
 ### How can I build from source?
 
-See the [Building Setup section](https://github.com/Akylas/OSS-DocumentScanner#building-setup) in the main README.
+See the [Building Setup section](https://github.com/fnjlabs-arch/OSS-DocumentScanner#building-setup) in the main README.
 
 ## Still Have Questions?
 
 If your question isn't answered here:
 
-1. Search [existing GitHub issues](https://github.com/Akylas/OSS-DocumentScanner/issues)
-2. [Create a new issue](https://github.com/Akylas/OSS-DocumentScanner/issues/new) with your question
-3. Check the [source code](https://github.com/Akylas/OSS-DocumentScanner) for implementation details
+1. Search [existing GitHub issues](https://github.com/fnjlabs-arch/OSS-DocumentScanner/issues)
+2. [Create a new issue](https://github.com/fnjlabs-arch/OSS-DocumentScanner/issues/new) with your question
+3. Check the [source code](https://github.com/fnjlabs-arch/OSS-DocumentScanner) for implementation details

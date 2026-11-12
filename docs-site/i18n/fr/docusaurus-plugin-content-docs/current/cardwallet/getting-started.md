@@ -5,19 +5,19 @@ sidebar_position: 1
 slug: /cardwallet/getting-started
 ---
 
-# Premiers Pas avec OSS CardWallet
+# Premiers Pas avec SadSha CardWallet
 
-Bienvenue sur **OSS CardWallet**, une application open-source et respectueuse de la vie privée pour stocker et gérer vos cartes de fidélité, cartes de membre, billets et codes-barres.
+Bienvenue sur **SadSha CardWallet**, une application open-source et respectueuse de la vie privée pour stocker et gérer vos cartes de fidélité, cartes de membre, billets et codes-barres.
 
 ## Installation
 
 ### Android
 
-Vous pouvez installer OSS CardWallet sur Android via :
+Vous pouvez installer SadSha CardWallet sur Android via :
 
 - **Google Play Store** : [Télécharger depuis Play Store](https://play.google.com/store/apps/details?id=com.akylas.cardwallet)
 - **IzzyOnDroid** : [Télécharger depuis IzzyOnDroid](https://apt.izzysoft.de/packages/com.akylas.cardwallet)
-- **Versions GitHub** : [Télécharger l'APK depuis GitHub](https://github.com/ossappscollective/OSS-DocumentScanner/releases)
+- **Versions GitHub** : [Télécharger l'APK depuis GitHub](https://github.com/fnjlabs-arch/OSS-DocumentScanner/releases)
 
 ### iOS
 
@@ -25,7 +25,7 @@ Vous pouvez installer OSS CardWallet sur Android via :
 
 ## Qu'est-ce que CardWallet ?
 
-OSS CardWallet vous aide à :
+SadSha CardWallet vous aide à :
 
 - **Stocker les cartes de fidélité** numériquement au lieu de transporter des cartes physiques
 - **Scanner les codes-barres** de cartes existantes ou en créer de nouveaux
@@ -75,5 +75,5 @@ Au premier lancement, l'application demandera :
 
 ## Obtenir de l'Aide
 
-- **Problèmes** : [Signaler des bugs sur GitHub](https://github.com/ossappscollective/OSS-DocumentScanner/issues)
+- **Problèmes** : [Signaler des bugs sur GitHub](https://github.com/fnjlabs-arch/OSS-DocumentScanner/issues)
 - **Traductions** : [Aidez à traduire sur Weblate](https://hosted.weblate.org/engage/oss-document-scanner/)

@@ -14,7 +14,7 @@
     },
     "$com.akylas.documentscanner": {
         "app": {
-            "name": "OSS Document Scanner"
+            "name": "SadSha DocScan"
         }
     },
     "a3": "A3",
@@ -36,7 +36,7 @@
     "always_show_card_name": "sempre mostrar os nomes nos cartões",
     "api_token": "Token de API",
     "app": {
-        "name": "OSS Document Scanner"
+        "name": "SadSha DocScan"
     },
     "appearance": "Aparência",
     "appearance_settings": "Definições de tema e aspetos visuais",

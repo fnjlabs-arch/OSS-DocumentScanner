@@ -7,7 +7,7 @@ slug: /settings
 
 # Settings
 
-Configure OSS Document Scanner and OSS CardWallet to match your preferences and workflow.
+Configure SadSha DocScan and SadSha CardWallet to match your preferences and workflow.
 
 :::tip Translation Keys
 Settings names and descriptions use translation keys from the app's i18n system (`app/i18n/`). This ensures documentation stays in sync with the app interface.

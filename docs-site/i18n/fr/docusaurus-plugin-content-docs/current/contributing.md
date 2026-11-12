@@ -11,7 +11,7 @@ Aidez à améliorer cette documentation ! Nous accueillons les contributions de 
 
 ## Démarrage Rapide
 
-1. **Forkez le dépôt** : [github.com/ossappscollective/OSS-DocumentScanner](https://github.com/ossappscollective/OSS-DocumentScanner)
+1. **Forkez le dépôt** : [github.com/fnjlabs-arch/OSS-DocumentScanner](https://github.com/fnjlabs-arch/OSS-DocumentScanner)
 
 2. **Clonez votre fork** :
 
@@ -261,8 +261,8 @@ Brève description des modifications
 
 ## Obtenir de l'Aide
 
-- **Questions** : Ouvrez une [Discussion GitHub](https://github.com/ossappscollective/OSS-DocumentScanner/discussions)
-- **Bugs** : Ouvrez une [Issue GitHub](https://github.com/ossappscollective/OSS-DocumentScanner/issues)
+- **Questions** : Ouvrez une [Discussion GitHub](https://github.com/fnjlabs-arch/OSS-DocumentScanner/discussions)
+- **Bugs** : Ouvrez une [Issue GitHub](https://github.com/fnjlabs-arch/OSS-DocumentScanner/issues)
 - **Chat** : Rejoignez la communauté sur GitHub
 
 ## Reconnaissance

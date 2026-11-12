@@ -35,9 +35,9 @@
     "main": "app/bootstrap",
     "description": "NativeScript Application",
     "license": "MIT",
-    "repository": "https://github.com/ossappscollective/OSS-DocumentScanner",
+    "repository": "https://github.com/fnjlabs-arch/OSS-DocumentScanner",
     "bugs": {
-        "url": "https://github.com/ossappscollective/OSS-DocumentScanner/issues"
+        "url": "https://github.com/fnjlabs-arch/OSS-DocumentScanner/issues"
     },
     "dependencies": {
         "@akylas/kiss-orm": "2.1.14",

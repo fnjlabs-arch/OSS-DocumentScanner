@@ -1,4 +1,4 @@
-<i>OSS Card Wallet</i> is a free and Open Source app to transform your mobile device into a powerful card scanner and wallet
+<i>SadSha CardWallet</i> is a free and Open Source app to transform your mobile device into a powerful card scanner and wallet
 
 <b>SCAN</b>
 • Scan your IDs, business cards, loyalty cards with a fast camera scan.

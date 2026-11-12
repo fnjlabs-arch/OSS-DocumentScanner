@@ -1,4 +1,4 @@
-The OSS Document Scanner is a free and Open Source app to transform your mobile device into a powerful document scanner.
+The SadSha DocScan is a free and Open Source app to transform your mobile device into a powerful document scanner.
 
 SCAN
 • Scan your documents or receipts with a fast camera scan.

@@ -6,7 +6,7 @@
 # Prerequisites:
 # - Maestro CLI installed: curl -Ls "https://get.maestro.mobile.dev" | bash
 # - Android emulator running OR iOS simulator running
-# - OSS Document Scanner app installed on the device/emulator
+# - SadSha DocScan app installed on the device/emulator
 #
 # Usage:
 #   ./docs-site/maestro/generate-screenshots.sh [android|ios]
@@ -23,7 +23,7 @@ TEST_IMAGE="$SCRIPT_DIR/test-document.png"
 # Platform selection
 PLATFORM="${1:-android}"
 
-echo "🎯 OSS Document Scanner - Screenshot Generator"
+echo "🎯 SadSha DocScan - Screenshot Generator"
 echo "================================================"
 echo "Platform: $PLATFORM"
 echo "Output directory: $SCREENSHOTS_DIR"

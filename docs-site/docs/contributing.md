@@ -11,7 +11,7 @@ Help improve this documentation! We welcome contributions from the community.
 
 ## Quick Start
 
-1. **Fork the repository**: [github.com/Akylas/OSS-DocumentScanner](https://github.com/Akylas/OSS-DocumentScanner)
+1. **Fork the repository**: [github.com/fnjlabs-arch/OSS-DocumentScanner](https://github.com/fnjlabs-arch/OSS-DocumentScanner)
 
 2. **Clone your fork**:
    ```bash
@@ -249,8 +249,8 @@ Brief description of changes
 
 ## Getting Help
 
-- **Questions**: Open a [GitHub Discussion](https://github.com/Akylas/OSS-DocumentScanner/discussions)
-- **Bugs**: Open a [GitHub Issue](https://github.com/Akylas/OSS-DocumentScanner/issues)
+- **Questions**: Open a [GitHub Discussion](https://github.com/fnjlabs-arch/OSS-DocumentScanner/discussions)
+- **Bugs**: Open a [GitHub Issue](https://github.com/fnjlabs-arch/OSS-DocumentScanner/issues)
 - **Chat**: Join the community on GitHub
 
 ## Recognition

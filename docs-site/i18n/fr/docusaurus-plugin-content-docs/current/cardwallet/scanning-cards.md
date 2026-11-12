@@ -7,7 +7,7 @@ slug: /cardwallet/scanning-cards
 
 # Scanner des Cartes
 
-OSS CardWallet facilite la numérisation de vos cartes physiques en scannant leurs codes-barres.
+SadSha CardWallet facilite la numérisation de vos cartes physiques en scannant leurs codes-barres.
 
 ## Scanner un Code-Barres
 

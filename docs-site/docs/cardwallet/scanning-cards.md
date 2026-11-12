@@ -7,7 +7,7 @@ slug: /cardwallet/scanning-cards
 
 # Scanning Cards
 
-OSS CardWallet makes it easy to digitize your physical cards by scanning their barcodes.
+SadSha CardWallet makes it easy to digitize your physical cards by scanning their barcodes.
 
 ![Capture Screen](/img/screenshots/cardwallet/1_en-US.png)
 

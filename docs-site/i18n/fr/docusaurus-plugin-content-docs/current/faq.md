@@ -7,13 +7,13 @@ slug: /faq
 
 # Foire Aux Questions
 
-Trouvez des réponses aux questions courantes sur OSS Document Scanner et OSS CardWallet.
+Trouvez des réponses aux questions courantes sur SadSha DocScan et SadSha CardWallet.
 
 ## Général
 
 ### Ces applications sont-elles vraiment gratuites ?
 
-Oui ! OSS Document Scanner et OSS CardWallet sont entièrement gratuits et open source. Il n'y a pas de publicités, pas d'achats intégrés, et pas de fonctionnalités premium verrouillées derrière un paywall.
+Oui ! SadSha DocScan et SadSha CardWallet sont entièrement gratuits et open source. Il n'y a pas de publicités, pas d'achats intégrés, et pas de fonctionnalités premium verrouillées derrière un paywall.
 
 ### Mes données sont-elles privées ?
 
@@ -26,7 +26,7 @@ Absolument. Les deux applications :
 
 ### Quelle est la différence entre les deux applications ?
 
-| OSS Document Scanner            | OSS CardWallet                         |
+| SadSha DocScan            | SadSha CardWallet                         |
 | ------------------------------- | -------------------------------------- |
 | Numériser des documents papier  | Stocker des cartes de fidélité/membres |
 | Détection automatique des bords | Scan de codes-barres                   |
@@ -37,9 +37,9 @@ Les deux applications partagent des fonctionnalités communes comme la synchroni
 
 ### Où puis-je obtenir de l'aide ?
 
-- **GitHub Issues** : [Signaler des bugs ou demander des fonctionnalités](https://github.com/ossappscollective/OSS-DocumentScanner/issues)
+- **GitHub Issues** : [Signaler des bugs ou demander des fonctionnalités](https://github.com/fnjlabs-arch/OSS-DocumentScanner/issues)
 - **Cette Documentation** : Parcourez les guides et tutoriels
-- **Code Source** : Consultez le [code open source](https://github.com/ossappscollective/OSS-DocumentScanner)
+- **Code Source** : Consultez le [code open source](https://github.com/fnjlabs-arch/OSS-DocumentScanner)
 
 ### Comment puis-je contribuer ?
 
@@ -201,7 +201,7 @@ Les sauvegardes sont des fichiers ZIP qui ne sont pas chiffrés par défaut. Pou
 Essayez ces étapes :
 
 1. Redémarrez votre appareil
-2. Videz le cache de l'app (Paramètres > Apps > OSS Document Scanner > Vider le cache)
+2. Videz le cache de l'app (Paramètres > Apps > SadSha DocScan > Vider le cache)
 3. Mettez à jour vers la dernière version
 4. Réinstallez l'application (faites une sauvegarde d'abord !)
 
@@ -245,7 +245,7 @@ Essayez ces étapes :
 
 ### Comment l'application est-elle construite ?
 
-OSS Document Scanner est construit avec :
+SadSha DocScan est construit avec :
 
 - **NativeScript** : Framework cross-platform
 - **Svelte** : Composants UI
@@ -254,7 +254,7 @@ OSS Document Scanner est construit avec :
 
 ### Où se trouve le code source ?
 
-Répertoires clés dans le [dépôt GitHub](https://github.com/ossappscollective/OSS-DocumentScanner) :
+Répertoires clés dans le [dépôt GitHub](https://github.com/fnjlabs-arch/OSS-DocumentScanner) :
 
 | Répertoire                | Contenu                         |
 | ------------------------- | ------------------------------- |
@@ -267,11 +267,11 @@ Répertoires clés dans le [dépôt GitHub](https://github.com/ossappscollective
 
 ### Comment puis-je compiler depuis les sources ?
 
-Voir la [section Configuration de Build](https://github.com/ossappscollective/OSS-DocumentScanner#building-setup) dans le README principal.
+Voir la [section Configuration de Build](https://github.com/fnjlabs-arch/OSS-DocumentScanner#building-setup) dans le README principal.
 
 ## Intégration de Captures d'Écran Maestro
 
-Pour les tests automatisés et la documentation, OSS Document Scanner supporte Maestro pour la génération de captures d'écran.
+Pour les tests automatisés et la documentation, SadSha DocScan supporte Maestro pour la génération de captures d'écran.
 
 ### Comment Générer des Captures d'Écran avec Maestro
 
@@ -314,6 +314,6 @@ Gardez ces noms de fichiers exacts pour que les captures générées par Maestro
 
 Si votre question n'est pas répondue ici :
 
-1. Cherchez dans les [issues GitHub existantes](https://github.com/ossappscollective/OSS-DocumentScanner/issues)
-2. [Créez une nouvelle issue](https://github.com/ossappscollective/OSS-DocumentScanner/issues/new) avec votre question
-3. Consultez le [code source](https://github.com/ossappscollective/OSS-DocumentScanner) pour les détails d'implémentation
+1. Cherchez dans les [issues GitHub existantes](https://github.com/fnjlabs-arch/OSS-DocumentScanner/issues)
+2. [Créez une nouvelle issue](https://github.com/fnjlabs-arch/OSS-DocumentScanner/issues/new) avec votre question
+3. Consultez le [code source](https://github.com/fnjlabs-arch/OSS-DocumentScanner) pour les détails d'implémentation

@@ -1,7 +1,7 @@
 {
     "$com.akylas.cardwallet": {
         "app": {
-            "name": "OSS Card Wallet"
+            "name": "SadSha CardWallet"
         },
         "ios": {
             "info": {
@@ -14,7 +14,7 @@
     },
     "$com.akylas.documentscanner": {
         "app": {
-            "name": "OSS Document Scanner"
+            "name": "SadSha DocScan"
         }
     },
     "a3": "A3",
@@ -36,7 +36,7 @@
     "always_show_card_name": "常にカード名を表示",
     "api_token": "APIトークン",
     "app": {
-        "name": "OSS Document Scanner"
+        "name": "SadSha DocScan"
     },
     "appearance": "外観",
     "appearance_settings": "テーマとその他の外観設定",

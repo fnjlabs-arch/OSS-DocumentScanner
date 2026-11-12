@@ -1,4 +1,4 @@
-# Maestro Screenshot Generation for OSS Document Scanner Documentation
+# Maestro Screenshot Generation for SadSha DocScan Documentation
 #
 # This flow generates all screenshots needed for the documentation site.
 # Screenshots are saved directly to docs-site/static/img/ for the Docusaurus build.
@@ -6,7 +6,7 @@
 # Prerequisites:
 # - Maestro CLI installed: https://maestro.mobile.dev/
 # - Android emulator or iOS simulator running
-# - OSS Document Scanner app installed (com.akylas.documentscanner)
+# - SadSha DocScan app installed (com.akylas.documentscanner)
 #
 # Usage:
 #   maestro test docs-site/maestro/generate-screenshots.yaml

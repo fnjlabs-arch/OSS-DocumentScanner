@@ -1,7 +1,7 @@
 {
     "$com.akylas.cardwallet": {
         "app": {
-            "name": "OSS Card Wallet"
+            "name": "SadSha CardWallet"
         },
         "ios": {
             "info": {
@@ -14,7 +14,7 @@
     },
     "$com.akylas.documentscanner": {
         "app": {
-            "name": "OSS Document Scanner"
+            "name": "SadSha DocScan"
         }
     },
     "a3": "A3",

@@ -1,6 +1,6 @@
-# OSS Document Scanner Documentation Site
+# SadSha DocScan Documentation Site
 
-This directory contains the documentation website for OSS Document Scanner, built with [Docusaurus 3](https://docusaurus.io/).
+This directory contains the documentation website for SadSha DocScan, built with [Docusaurus 3](https://docusaurus.io/).
 
 ## Quick Start
 
@@ -44,7 +44,7 @@ This serves the built website locally for testing before deployment.
 
 The site is automatically deployed to GitHub Pages when changes are pushed to the `main` branch via the GitHub Actions workflow at `.github/workflows/deploy.yml`.
 
-The site will be available at: https://akylas.github.io/OSS-DocumentScanner/
+The site will be available at: https://fnjlabs-arch.github.io/OSS-DocumentScanner/
 
 ## Project Structure
 

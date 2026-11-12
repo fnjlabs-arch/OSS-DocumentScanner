@@ -14,7 +14,7 @@
     },
     "$com.akylas.documentscanner": {
         "app": {
-            "name": "OSS Document Scanner"
+            "name": "SadSha DocScan"
         }
     },
     "a3": "a3",
@@ -36,7 +36,7 @@
     "always_show_card_name": "beti erakutsi txartelen izenak",
     "api_token": "API tokena",
     "app": {
-        "name": "OSS Document Scanner"
+        "name": "SadSha DocScan"
     },
     "appearance": "Itxura",
     "appearance_settings": "gaia eta bestelako itxura-ezarpenak",

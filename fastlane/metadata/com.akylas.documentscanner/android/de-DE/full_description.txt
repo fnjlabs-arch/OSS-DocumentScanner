@@ -1,4 +1,4 @@
-Der <i>OSS Document Scanner</i> ist eine Open-Source-App zum Scannen all Ihrer Dokumente. Sie scannen entweder mit Ihrer Kamera oder importieren ein Bild. Die App erkennt Ihr Dokument automatisch im Foto und schneidet das Bild zu.
+Der <i>SadSha DocScan</i> ist eine Open-Source-App zum Scannen all Ihrer Dokumente. Sie scannen entweder mit Ihrer Kamera oder importieren ein Bild. Die App erkennt Ihr Dokument automatisch im Foto und schneidet das Bild zu.
 
 Sobald das Dokument erstellt ist, können Sie mithilfe von OCR Text im Dokument erkennen lassen.
 
