@@ -41,12 +41,15 @@ jobs:
       - name: Enable Corepack (Yarn 4)
         run: corepack enable
 
-      - name: Setup Android SDK
-        uses: android-actions/setup-android@v3
-
-      - name: Install Android NDK 27.3.13750724
+      # NOTE: android-actions/setup-android@v3 fails here: its `sdkmanager
+      # --licenses` call prompts interactively (7 of 8 licenses unaccepted)
+      # and exits 1. The runner already ships the Android SDK preinstalled,
+      # so we accept licenses non-interactively with `yes |` instead.
+      - name: Accept SDK licenses + install platform, build-tools, NDK
         run: |
-          yes | "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" --install "ndk;27.3.13750724" >/dev/null
+          SDKMGR="$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager"
+          yes | "$SDKMGR" --licenses >/dev/null
+          yes | "$SDKMGR" --install "platforms;android-36" "build-tools;36.1.0" "ndk;27.3.13750724" >/dev/null
           echo "ANDROID_NDK_HOME=$ANDROID_HOME/ndk/27.3.13750724" >> "$GITHUB_ENV"
 
       - name: Install NativeScript CLI
