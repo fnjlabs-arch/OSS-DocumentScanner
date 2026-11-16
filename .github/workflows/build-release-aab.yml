@@ -20,6 +20,11 @@ jobs:
       APP_BUILD_PATH: build/documentscanner
       PROJECT_NAME: nsdocumentscanner
       CI: 'true'
+      # Skip the `ns` doctor/env check: it fails CI on the emulator check
+      # (no emulator/system image on the runner). The real build
+      # requirements (SDK, JDK, NDK) are installed above and verified by
+      # the build itself.
+      NS_SKIP_ENV_CHECK: 'true'
     steps:
       - uses: actions/checkout@v4
         with:
