@@ -37,7 +37,7 @@ function HomepageHeader() {
 function AppShowcase() {
     const apps = [
         {
-            name: 'SadSha DocScan',
+            name: 'SadSha Scanner',
             description: 'Scan, edit, and export documents with automatic edge detection and perspective correction.',
             featureImage: useBaseUrl('/img/apps/documentscanner-feature.png'),
             github: 'https://github.com/fnjlabs-arch/OSS-DocumentScanner/releases?q=documentscanner&expanded=true',
@@ -251,7 +251,7 @@ export default function Home() {
     return (
         <Layout
             title="Best Free Document Scanner App - Open Source PDF Scanner"
-            description="SadSha DocScan - The best free, open source document scanner app for Android and iOS. Scan documents to PDF, auto edge detection, OCR, cloud sync. No ads, 100% privacy."
+            description="SadSha Scanner - The best free, open source document scanner app for Android and iOS. Scan documents to PDF, auto edge detection, OCR, cloud sync. No ads, 100% privacy."
         >
             <HomepageHeader />
             <main>

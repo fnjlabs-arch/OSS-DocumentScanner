@@ -9,16 +9,16 @@
       android:translateY="34.02">
     <path
         android:pathData="m32.74,8v32h-22A6,6 0,0 1,4.74 34V0H24.74Z"
-        android:fillColor="#edebf2"/>
+        android:fillColor="#FFFFFF"/>
     <path
         android:pathData="m32.74,8h-8L24.74,0ZM27.74,19L7.74,19a1,1 0,0 1,0 -2L27.74,17a1,1 0,0 1,0 2zM27.74,14L7.74,14a1,1 0,0 1,0 -2L27.74,12a1,1 0,0 1,0 2zM27.74,24L7.74,24a1,1 0,0 1,0 -2L27.74,22a1,1 0,0 1,0 2zM27.74,29L7.74,29a1,1 0,0 1,0 -2L27.74,27a1,1 0,0 1,0 2zM17.74,34L7.74,34a1,1 0,0 1,0 -2h10a1,1 0,0 1,0 2z"
-        android:fillColor="#c6c3d8"/>
+        android:fillColor="#FFFFFF"/>
     <path
         android:pathData="M0.73,22.078h35.891v0.844h-35.891z"
         android:strokeLineJoin="round"
         android:strokeWidth="1.45975"
-        android:fillColor="#da5669"
-        android:strokeColor="#da5669"
+        android:fillColor="#78350F"
+        android:strokeColor="#78350F"
         android:fillType="evenOdd"
         android:strokeLineCap="round"/>
     <path
@@ -26,7 +26,7 @@
         android:strokeAlpha="0.523316"
         android:strokeLineJoin="round"
         android:strokeWidth="2.12622"
-        android:fillColor="#da5669"
+        android:fillColor="#78350F"
         android:strokeColor="#00000000"
         android:fillType="evenOdd"
         android:fillAlpha="0.196891"

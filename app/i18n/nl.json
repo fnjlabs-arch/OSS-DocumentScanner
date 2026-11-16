@@ -12,9 +12,9 @@
             }
         }
     },
-    "$com.akylas.documentscanner": {
+    "$com.sadsha.scanner": {
         "app": {
-            "name": "SadSha DocScan"
+            "name": "SadSha Scanner"
         }
     },
     "a3": "A3",

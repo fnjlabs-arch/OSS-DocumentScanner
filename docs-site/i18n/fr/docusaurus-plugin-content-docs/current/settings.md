@@ -7,7 +7,7 @@ slug: /settings
 
 # Paramètres
 
-Configurez SadSha DocScan et SadSha CardWallet selon vos préférences et votre flux de travail.
+Configurez SadSha Scanner et SadSha CardWallet selon vos préférences et votre flux de travail.
 
 ![Écran des Paramètres](/img/settings-1.png)
 

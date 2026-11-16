@@ -1,6 +1,6 @@
-# SadSha DocScan Documentation Site
+# SadSha Scanner Documentation Site
 
-This directory contains the documentation website for SadSha DocScan, built with [Docusaurus 3](https://docusaurus.io/).
+This directory contains the documentation website for SadSha Scanner, built with [Docusaurus 3](https://docusaurus.io/).
 
 ## Quick Start
 

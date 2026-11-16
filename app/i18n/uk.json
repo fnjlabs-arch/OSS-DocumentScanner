@@ -12,9 +12,9 @@
             }
         }
     },
-    "$com.akylas.documentscanner": {
+    "$com.sadsha.scanner": {
         "app": {
-            "name": "SadSha DocScan"
+            "name": "SadSha Scanner"
         }
     },
     "a3": "a3",
@@ -36,7 +36,7 @@
     "always_show_card_name": "завжди показувати назви карток",
     "api_token": "Токен API",
     "app": {
-        "name": "SadSha DocScan"
+        "name": "SadSha Scanner"
     },
     "appearance": "Вигляд",
     "appearance_settings": "тема та інші налаштування вигляду",

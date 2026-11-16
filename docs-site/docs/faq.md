@@ -7,13 +7,13 @@ slug: /faq
 
 # Frequently Asked Questions
 
-Find answers to common questions about SadSha DocScan and SadSha CardWallet.
+Find answers to common questions about SadSha Scanner and SadSha CardWallet.
 
 ## General
 
 ### Are these apps really free?
 
-Yes! Both SadSha DocScan and SadSha CardWallet are completely free and open source. There are no ads, no in-app purchases, and no premium features locked behind a paywall.
+Yes! Both SadSha Scanner and SadSha CardWallet are completely free and open source. There are no ads, no in-app purchases, and no premium features locked behind a paywall.
 They will nalways remain free and open source.
 
 ### Is my data private?
@@ -26,7 +26,7 @@ Absolutely. Both apps:
 
 ### What's the difference between the two apps?
 
-| SadSha DocScan | SadSha CardWallet |
+| SadSha Scanner | SadSha CardWallet |
 |---------------------|----------------|
 | Scan paper documents | Store loyalty/membership cards |
 | Auto edge detection | Barcode scanning |
@@ -186,7 +186,7 @@ Backups are ZIP files that are not encrypted by default. For sensitive documents
 Try these steps:
 
 1. Restart your device
-2. Clear app cache (Settings > Apps > SadSha DocScan > Clear Cache)
+2. Clear app cache (Settings > Apps > SadSha Scanner > Clear Cache)
 3. Update to latest version
 4. Reinstall the app (backup first!)
 
@@ -230,7 +230,7 @@ Try these steps:
 
 ### How is the app built?
 
-SadSha DocScan is built with:
+SadSha Scanner is built with:
 - **NativeScript**: Cross-platform framework
 - **Svelte**: UI components
 - **OpenCV**: Image processing

@@ -7,7 +7,7 @@ slug: /sync-and-backup
 
 # Synchronisation et Sauvegarde
 
-Gardez vos documents en sécurité et accessibles sur tous vos appareils grâce aux fonctionnalités de synchronisation et de sauvegarde d'SadSha DocScan.
+Gardez vos documents en sécurité et accessibles sur tous vos appareils grâce aux fonctionnalités de synchronisation et de sauvegarde d'SadSha Scanner.
 
 ![Paramètres de Synchronisation](/img/sync-1.png)
 
@@ -125,7 +125,7 @@ Pour les conflits complexes :
 
 1. Connectez-vous à votre instance Nextcloud
 2. Allez dans **Paramètres** > **Sécurité** > **Appareils et sessions**
-3. Créez un mot de passe d'application pour SadSha DocScan
+3. Créez un mot de passe d'application pour SadSha Scanner
 4. Dans l'application, entrez :
     - URL : `https://votre-nextcloud.com/remote.php/webdav/`
     - Utilisez le mot de passe d'application au lieu du mot de passe principal

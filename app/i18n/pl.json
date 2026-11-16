@@ -12,7 +12,7 @@
             }
         }
     },
-    "$com.akylas.documentscanner": {
+    "$com.sadsha.scanner": {
         "app": {
             "name": "Skaner dokumentów OSS"
         }

@@ -73,12 +73,12 @@ async function innerOnAndroidIntent(event: AndroidActivityNewIntentEventData) {
                         }
                     }
                     break;
-                case 'com.akylas.documentscanner.OPEN_CAMERA':
+                case 'com.sadsha.scanner.OPEN_CAMERA':
                     setTimeout(() => {
                         onStartCam();
                     }, 0);
                     break;
-                case 'com.akylas.documentscanner.OCR_CAMERA_CLIPBOARD':
+                case 'com.sadsha.scanner.OCR_CAMERA_CLIPBOARD':
                     setTimeout(async () => {
                         if (ocrService.downloadedLanguages.length === 0) {
                             showToast(lc('ocr_missing_languages'));

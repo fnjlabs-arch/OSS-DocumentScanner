@@ -4,7 +4,7 @@
             "name": "OSS Novčanik za kartice"
         }
     },
-    "$com.akylas.documentscanner": {
+    "$com.sadsha.scanner": {
         "app": {
             "name": "OSS skener dokumenata"
         }

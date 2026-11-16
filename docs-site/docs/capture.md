@@ -7,7 +7,7 @@ slug: /capture
 
 # Capturing Documents
 
-SadSha DocScan provides powerful capture capabilities with automatic edge detection, multiple capture modes, and batch scanning support.
+SadSha Scanner provides powerful capture capabilities with automatic edge detection, multiple capture modes, and batch scanning support.
 
 ![Capture Screen](/img/screenshots/documentscanner/0_en-US.png)
 

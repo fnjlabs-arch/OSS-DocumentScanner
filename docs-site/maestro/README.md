@@ -1,6 +1,6 @@
 # Maestro Screenshot Generation
 
-This directory contains [Maestro](https://maestro.mobile.dev/) flows for automatically generating screenshots for the SadSha DocScan documentation.
+This directory contains [Maestro](https://maestro.mobile.dev/) flows for automatically generating screenshots for the SadSha Scanner documentation.
 
 ## Prerequisites
 
@@ -15,7 +15,7 @@ This directory contains [Maestro](https://maestro.mobile.dev/) flows for automat
     - iOS: Start a simulator via Xcode or `xcrun simctl boot <device_name>`
 
 3. **App Installed:**
-    - Build and install SadSha DocScan on the device/emulator
+    - Build and install SadSha Scanner on the device/emulator
     - App ID: `com.akylas.documentscanner`
 
 ## Quick Start

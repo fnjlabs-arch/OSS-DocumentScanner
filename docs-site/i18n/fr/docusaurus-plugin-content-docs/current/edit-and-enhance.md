@@ -7,7 +7,7 @@ slug: /edit-and-enhance
 
 # Édition et Amélioration des Documents
 
-Après avoir capturé un document, SadSha DocScan fournit des outils d'édition complets pour perfectionner vos numérisations.
+Après avoir capturé un document, SadSha Scanner fournit des outils d'édition complets pour perfectionner vos numérisations.
 
 ![Écran d'Édition](/img/edit-1.png)
 

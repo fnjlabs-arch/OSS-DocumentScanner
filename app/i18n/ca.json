@@ -12,9 +12,9 @@
             }
         }
     },
-    "$com.akylas.documentscanner": {
+    "$com.sadsha.scanner": {
         "app": {
-            "name": "SadSha DocScan"
+            "name": "SadSha Scanner"
         }
     },
     "a3": "a3",
@@ -32,7 +32,7 @@
     "always_prompt_crop_edit": "sol·licita sempre editar l'àrea del document",
     "always_prompt_crop_edit_desc": "Si escaneges amb la càmera sense el mode de processament per lots, habilitar-lo t'assegura que sempre et demanarà de confirmar/editar l'àrea del document abans de crear-lo",
     "app": {
-        "name": "SadSha DocScan"
+        "name": "SadSha Scanner"
     },
     "appearance": "Aparença",
     "appearance_settings": "tema i d'altres paràmetres d'aparença",

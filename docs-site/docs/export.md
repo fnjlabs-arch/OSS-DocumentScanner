@@ -7,7 +7,7 @@ slug: /export
 
 # Exporting Documents
 
-SadSha DocScan supports multiple export formats and sharing options to get your documents where you need them.
+SadSha Scanner supports multiple export formats and sharing options to get your documents where you need them.
 
 ![Export Options](/img/export-1.png)
 

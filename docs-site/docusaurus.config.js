@@ -10,7 +10,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: 'SadSha DocScan - Best Free PDF Scanner App',
+    title: 'SadSha Scanner - Best Free PDF Scanner App',
     tagline: 'Free, open source document scanner and card wallet apps for Android & iOS. No ads, 100% privacy.',
     favicon: 'img/favicon.ico',
 
@@ -265,7 +265,7 @@ const config = {
                         ]
                     }
                 ],
-                copyright: `Copyright © ${new Date().getFullYear()} SadSha DocScan & CardWallet. Built with Docusaurus.`
+                copyright: `Copyright © ${new Date().getFullYear()} SadSha Scanner & CardWallet. Built with Docusaurus.`
             },
             prism: {
                 theme: prismThemes.github,

@@ -7,13 +7,13 @@ slug: /faq
 
 # Foire Aux Questions
 
-Trouvez des réponses aux questions courantes sur SadSha DocScan et SadSha CardWallet.
+Trouvez des réponses aux questions courantes sur SadSha Scanner et SadSha CardWallet.
 
 ## Général
 
 ### Ces applications sont-elles vraiment gratuites ?
 
-Oui ! SadSha DocScan et SadSha CardWallet sont entièrement gratuits et open source. Il n'y a pas de publicités, pas d'achats intégrés, et pas de fonctionnalités premium verrouillées derrière un paywall.
+Oui ! SadSha Scanner et SadSha CardWallet sont entièrement gratuits et open source. Il n'y a pas de publicités, pas d'achats intégrés, et pas de fonctionnalités premium verrouillées derrière un paywall.
 
 ### Mes données sont-elles privées ?
 
@@ -26,7 +26,7 @@ Absolument. Les deux applications :
 
 ### Quelle est la différence entre les deux applications ?
 
-| SadSha DocScan            | SadSha CardWallet                         |
+| SadSha Scanner            | SadSha CardWallet                         |
 | ------------------------------- | -------------------------------------- |
 | Numériser des documents papier  | Stocker des cartes de fidélité/membres |
 | Détection automatique des bords | Scan de codes-barres                   |
@@ -201,7 +201,7 @@ Les sauvegardes sont des fichiers ZIP qui ne sont pas chiffrés par défaut. Pou
 Essayez ces étapes :
 
 1. Redémarrez votre appareil
-2. Videz le cache de l'app (Paramètres > Apps > SadSha DocScan > Vider le cache)
+2. Videz le cache de l'app (Paramètres > Apps > SadSha Scanner > Vider le cache)
 3. Mettez à jour vers la dernière version
 4. Réinstallez l'application (faites une sauvegarde d'abord !)
 
@@ -245,7 +245,7 @@ Essayez ces étapes :
 
 ### Comment l'application est-elle construite ?
 
-SadSha DocScan est construit avec :
+SadSha Scanner est construit avec :
 
 - **NativeScript** : Framework cross-platform
 - **Svelte** : Composants UI
@@ -271,7 +271,7 @@ Voir la [section Configuration de Build](https://github.com/fnjlabs-arch/OSS-Doc
 
 ## Intégration de Captures d'Écran Maestro
 
-Pour les tests automatisés et la documentation, SadSha DocScan supporte Maestro pour la génération de captures d'écran.
+Pour les tests automatisés et la documentation, SadSha Scanner supporte Maestro pour la génération de captures d'écran.
 
 ### Comment Générer des Captures d'Écran avec Maestro
 

@@ -7,7 +7,7 @@ slug: /capture
 
 # Capture de Documents
 
-SadSha DocScan offre des capacités de capture puissantes avec détection automatique des bords, plusieurs modes de capture et support de numérisation par lots.
+SadSha Scanner offre des capacités de capture puissantes avec détection automatique des bords, plusieurs modes de capture et support de numérisation par lots.
 
 ![Capture Screen](/img/screenshots/documentscanner/0_en-US.png)
 

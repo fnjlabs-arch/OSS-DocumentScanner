@@ -52,7 +52,7 @@ class BaselineProfileGenerator {
 
     @Test
     fun startup() {
-        // This example works only with the variant with application id `com.akylas.documentscanner`."
+        // This example works only with the variant with application id `com.sadsha.scanner`."
         rule.collect(
             packageName = PACKAGE_NAME,
 
@@ -85,7 +85,7 @@ class BaselineProfileGenerator {
     }
 
     companion object {
-        private const val PACKAGE_NAME = "com.akylas.documentscanner"
+        private const val PACKAGE_NAME = "com.sadsha.scanner"
 
     }
 }

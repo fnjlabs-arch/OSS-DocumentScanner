@@ -12,9 +12,9 @@
             }
         }
     },
-    "$com.akylas.documentscanner": {
+    "$com.sadsha.scanner": {
         "app": {
-            "name": "SadSha DocScan"
+            "name": "SadSha Scanner"
         }
     },
     "a3": "a3",
@@ -36,7 +36,7 @@
     "always_show_card_name": "mostrar sempre nome das tarxetas",
     "api_token": "Token da API",
     "app": {
-        "name": "SadSha DocScan"
+        "name": "SadSha Scanner"
     },
     "appearance": "Aparencia",
     "appearance_settings": "decorado e outros axustes da aparencia",

@@ -4,7 +4,7 @@
             "name": "OSS-kaardi rahakott"
         }
     },
-    "$com.akylas.documentscanner": {
+    "$com.sadsha.scanner": {
         "app": {
             "name": "OSS-i dokumendiskanner"
         }

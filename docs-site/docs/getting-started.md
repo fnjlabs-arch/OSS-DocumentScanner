@@ -5,15 +5,15 @@ sidebar_position: 1
 slug: /getting-started
 ---
 
-# Getting Started with SadSha DocScan
+# Getting Started with SadSha Scanner
 
-Welcome to **SadSha DocScan**, an open-source, privacy-focused document scanning application for Android and iOS. This guide will help you get started with scanning, organizing, and exporting your documents.
+Welcome to **SadSha Scanner**, an open-source, privacy-focused document scanning application for Android and iOS. This guide will help you get started with scanning, organizing, and exporting your documents.
 
 ## Installation
 
 ### Android
 
-You can install SadSha DocScan on Android through:
+You can install SadSha Scanner on Android through:
 
 - **Google Play Store**: [Download from Play Store](https://play.google.com/store/apps/details?id=com.akylas.documentscanner)
 - **IzzyOnDroid**: [Download from IzzyOnDroid](https://apt.izzysoft.de/packages/com.akylas.documentscanner)
@@ -28,7 +28,7 @@ You can install SadSha DocScan on Android through:
 
 ![App Overview](/img/screenshots/documentscanner/0_en-US.png)
 
-SadSha DocScan provides a streamlined workflow for:
+SadSha Scanner provides a streamlined workflow for:
 
 1. **Capturing** documents using your device's camera
 2. **Editing** scans with cropping, rotation, and filters

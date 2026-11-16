@@ -17,7 +17,7 @@
             "name": "OSS-kortin lompakko"
         }
     },
-    "$com.akylas.documentscanner": {
+    "$com.sadsha.scanner": {
         "app": {
             "name": "OSS Skanneri"
         }

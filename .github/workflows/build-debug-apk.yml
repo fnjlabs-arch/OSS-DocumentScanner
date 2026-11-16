@@ -1,0 +1,80 @@
+# SadSha Scanner — debug APK (test build for Qasim's phone)
+# Triggered automatically when this file is pushed, or manually via Actions.
+# Builds fnjlabs-arch/OSS-DocumentScanner (sadsha-remix) as com.sadsha.scanner.
+name: SadSha Scanner — debug APK
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/build-debug-apk.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      APP_ID: com.sadsha.scanner
+      APP_RESOURCES: App_Resources/documentscanner
+      APP_BUILD_PATH: build/documentscanner
+      PROJECT_NAME: nsdocumentscanner
+      CI: 'true'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Set up Node 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: temurin
+
+      - name: Enable Corepack (Yarn 4)
+        run: corepack enable
+
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Install Android NDK 27.3.13750724
+        run: |
+          yes | "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" --install "ndk;27.3.13750724" >/dev/null
+          echo "ANDROID_NDK_HOME=$ANDROID_HOME/ndk/27.3.13750724" >> "$GITHUB_ENV"
+
+      - name: Install NativeScript CLI
+        run: |
+          npm i -g @akylas/nativescript-cli --ignore-scripts --legacy-peer-deps
+          ns package-manager set yarn2
+          ns usage-reporting disable
+          ns error-reporting disable
+
+      - name: Install dependencies
+        run: yarn install --immutable
+
+      # Prebuilt OpenCV + Tesseract native libs (the repo does not vendor them).
+      # Upstream dev_resources release; the fork has no such release yet, so we
+      # fetch from ossappscollective until the fork gets its own copy.
+      - name: Fetch dev resources (OpenCV + Tesseract)
+        run: |
+          curl -fL --retry 3 -o /tmp/android.zip "https://github.com/ossappscollective/OSS-DocumentScanner/releases/download/dev_resources/android.zip"
+          unzip -o -q /tmp/android.zip
+          ls opencv/android/staticlibs/arm64-v8a/libopencv_core.a tesseract/android/staticlibs/arm64-v8a/libtesseract.a
+
+      - name: Build debug APK
+        run: ns build android --env.adhoc
+
+      - name: Upload debug APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: sadsha-scanner-debug-apk
+          path: build/documentscanner/android/app/build/outputs/apk/debug/app-debug.apk
+          retention-days: 7
+          if-no-files-found: error

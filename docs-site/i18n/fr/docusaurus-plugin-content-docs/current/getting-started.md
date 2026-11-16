@@ -5,15 +5,15 @@ sidebar_position: 1
 slug: /getting-started
 ---
 
-# Premiers Pas avec SadSha DocScan
+# Premiers Pas avec SadSha Scanner
 
-Bienvenue sur **SadSha DocScan**, une application de numérisation de documents open-source et respectueuse de la vie privée pour Android et iOS. Ce guide vous aidera à commencer à numériser, organiser et exporter vos documents.
+Bienvenue sur **SadSha Scanner**, une application de numérisation de documents open-source et respectueuse de la vie privée pour Android et iOS. Ce guide vous aidera à commencer à numériser, organiser et exporter vos documents.
 
 ## Installation
 
 ### Android
 
-Vous pouvez installer SadSha DocScan sur Android via :
+Vous pouvez installer SadSha Scanner sur Android via :
 
 - **Google Play Store** : [Télécharger depuis Play Store](https://play.google.com/store/apps/details?id=com.akylas.documentscanner)
 - **IzzyOnDroid** : [Télécharger depuis IzzyOnDroid](https://apt.izzysoft.de/packages/com.akylas.documentscanner)
@@ -28,7 +28,7 @@ Vous pouvez installer SadSha DocScan sur Android via :
 
 ![Aperçu de l'application](/img/screenshots/documentscanner/0_en-US.png)
 
-SadSha DocScan offre un flux de travail optimisé pour :
+SadSha Scanner offre un flux de travail optimisé pour :
 
 1. **Capturer** des documents avec l'appareil photo de votre appareil
 2. **Éditer** les numérisations avec recadrage, rotation et filtres
