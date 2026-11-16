@@ -57,8 +57,14 @@ jobs:
           ns usage-reporting disable
           ns error-reporting disable
 
+      # NOT --immutable: the lockfile's `file:tools` portal hash is stale
+      # (the tools submodule moved on without a lockfile refresh), so an
+      # immutable install fails with YN0028. Upstream's own release pipeline
+      # installs the same way (YARN_ENABLE_IMMUTABLE_INSTALLS=false).
       - name: Install dependencies
-        run: yarn install --immutable
+        run: yarn install
+        env:
+          YARN_ENABLE_IMMUTABLE_INSTALLS: 'false'
 
       - name: Fetch dev resources (OpenCV + Tesseract)
         run: |
